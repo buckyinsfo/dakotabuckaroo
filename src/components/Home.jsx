@@ -10,15 +10,15 @@ class Home extends React.Component {
                 <Stars />
                 <div class="container-fluid img-background center-block">
                     <div className="row flex-container home-content">
-                        <div className="col-md-6">
-                            <h1 className="buckaroo-solgan text-uppercase">Enjoy the Great Taste of the Wild West!</h1>
+                        <div className="col-md-4 col-md-offset-2">
+                            <h1 className="buckaroo-solgan text-uppercase text-center">Enjoy the Great Taste of the Wild West!</h1>
                             <ul>
                                 <li>Does not require refrigeration after opening</li>
                                 <li>Delivers flavor and tenderness without fat or MSG</li>
                                 <li>Available in convenient 15.5 oz. squeezable bottles</li>
                             </ul>
-                            <h3>Satisfaction guaranteed!</h3>
-                            <h3 className="buckaroo-taste text-capitalize">a bold blend of Idaho's <span className="text-uppercase">Old West</span> with a hint of the <span className="text-uppercase">Dakotas</span>.</h3>
+                            <h3 className="text-center">Satisfaction guaranteed!</h3>
+                            <h3 className="buckaroo-taste text-capitalize text-center">a bold blend of Idaho's <span className="text-uppercase">Old West</span> with a hint of the <span className="text-uppercase">Dakotas</span>.</h3>
 
                         </div>
                         <div className="col-md-4 center-block hidden-sm hidden-xs">

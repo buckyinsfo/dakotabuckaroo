@@ -4,9 +4,10 @@ class Recipes extends React.Component {
 
     render() {
         return (
-                <div id="main-content" className="container">
-                    <h2 id="menu-categories-title" className="text-center">Our Recipes</h2>
-                    <section className="row">
+            <section className="recipes-component">
+                <div className="container"  id="main-content" >
+                    <h2 className="text-center" id="menu-categories-title">Our Recipes</h2>
+                    <div className="row">
 
                         <div className="menu-item-tile col-lg-4 col-md-6 col-sm-12">
                             <div id="chicken" className="protein row">
@@ -36,8 +37,10 @@ class Recipes extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
+
                 </div>
+            </section>
         );
     }
 }
