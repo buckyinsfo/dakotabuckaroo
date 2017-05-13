@@ -1,4 +1,5 @@
 import React from 'react';
+import Stars from './Stars';
 
 class Marinades extends React.Component {
 
@@ -12,9 +13,10 @@ class Marinades extends React.Component {
 
         return (
             <section className="marinade-comp" >
+                <Stars />
                 <div class="container">
                     <div className="text-center">
-                        <h1 className="text-uppercase">Introducing <br/>Dakota Buckaroo Marinades!</h1>
+                        <h1 className="text-uppercase">Introducing <br/>Dakota Buckaroo <br />Marinades!</h1>
                     </div>
                     <div className="container">` ``
                         <div className="flex-container">
@@ -31,6 +33,7 @@ class Marinades extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Stars />
             </section>
         );
     }

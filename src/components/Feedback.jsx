@@ -1,10 +1,12 @@
 import React from 'react';
+import Stars from './Stars';``
 
 class Feedback extends React.Component {
 
     render() {
         return (
             <section className="feedback-component" >>
+                <Stars />
                 <div className="container">
                     <div className="main text-center">
                         <h1>Customers Love Our Dakota Buckaroo Marinades!</h1>
@@ -54,6 +56,7 @@ class Feedback extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Stars />
             </section>
 
         );

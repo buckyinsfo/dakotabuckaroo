@@ -1,15 +1,16 @@
 import React from 'react';
-import Stars from './Stars'
+import Stars from './Stars';
 
 class Contact extends React.Component {
 
     render() {
         return (
             <section className="contact-component" >
+                <Stars />
                 <div class="container-fluid img-background center-block">
                     <div className="row">
 
-                        <div className="col-md-2">
+                        <div className="col-md-2 hidden-sm hidden-xs">
                         </div>
 
                         <div className="col-md-3 center-block hidden-sm hidden-xs">
@@ -30,8 +31,9 @@ class Contact extends React.Component {
 
                 </div>
                 <div className="container-flex text-center">
-                    <h5>Photographs by <strong>tzrad</strong>  Site written using <strong>React.js</strong>.</h5>
+                    <h5>Photographs by <strong>tzrad</strong>  -  Site written using <strong>React.js</strong>.</h5>
                 </div>
+                <Stars />
             </section>
         );
     }
