@@ -7,8 +7,8 @@ class Recipes extends React.Component {
         return (
             <section className="recipes-component">
                 <Stars />
-                <div className="container"  id="main-content" >
-                    <h2 className="text-center" id="menu-categories-title">Our Recipes</h2>
+                <div className="container" >
+                    <h2 className="text-center">Our Recipes</h2>`
                     <div className="row">
 
                         <div className="menu-item-tile col-lg-6 col-md-6 col-sm-12">

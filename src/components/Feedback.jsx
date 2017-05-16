@@ -5,7 +5,7 @@ class Feedback extends React.Component {
 
     render() {
         return (
-            <section className="feedback-component" >>
+            <section className="feedback-component" >
                 <Stars />
                 <div className="container">
                     <div className="main text-center">

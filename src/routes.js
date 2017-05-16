@@ -5,6 +5,7 @@ import Marinades from './components/Marinades.jsx';
 import Recipes from './components/Recipes.jsx';
 import Contact from './components/Contact.jsx';
 import Feedback from './components/Feedback.jsx';
+//import Oldsite from './components/Oldsite.jsx';
 
 class Routes extends React.Component {
 
@@ -22,3 +23,8 @@ class Routes extends React.Component {
 }
 
 export default Routes;
+
+/*
+ <Route path='/Oldsite' hide='true' component={Oldsite} />
+
+ */
