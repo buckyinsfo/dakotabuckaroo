@@ -2,6 +2,7 @@
   "name": "dakotabuckaroo",
   "version": "0.1.0",
   "private": false,
+  "main": "build/index.html",
   "homepage": "https://secret-castle-33082.herokuapp.com",
   "dependencies": {
     "react": "^15.5.4",
